@@ -2,9 +2,10 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  pathPrefix: "/mitsynbio",
   siteMetadata: {
-    title: `frontiers`,
-    siteUrl: `https://www.yourdomain.tld`,
+    title: `mitsynbio`,
+    siteUrl: `https://mattfeng.tech/`,
   },
-  plugins: [],
-}
+  plugins: ["gatsby-plugin-sass"],
+};
